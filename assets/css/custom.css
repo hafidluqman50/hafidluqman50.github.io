@@ -1,0 +1,64 @@
+@font-face {
+	font-family:'Roboto Condensed';
+	src:url('../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family:'Cairo';
+	src:url('../fonts/Cairo/Cairo-Regular.ttf') format('truetype');
+}
+
+.navbar-transparent {
+	background-color:transparent!important;
+}
+
+/*.navbar-transparent */
+
+.is-dark-flat {
+	background-color:#262626;
+}
+
+.is-dark-flat h1,h2,h3,h4,h5,p {
+	color:white;
+}
+
+.is-dark-flat .navbar-item {
+	color:white;
+}
+
+.is-dark-flat .navbar-item:hover {
+	color:rgba(207, 0, 15, 1)!important;
+	background-color:#121213;
+}
+
+.introduction {
+	width:100px;
+	min-height:10px;
+	padding:1%;
+	margin:10px 0px 10px 0px;
+	background-color:rgba(207, 0, 15, 1);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.work-place {
+	margin-top:5%;
+}
+
+.image.is-320x320 {
+  height: 320px;
+  width: 320px;
+}
+
+.introduction-layout {
+	margin-top:4%;
+}
+
+/* FONT CLASS */
+
+.font-roboto-condensed {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.font-cairo {
+	font-family: 'Cairo', sans-serif!important;
+}
