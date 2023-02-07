@@ -50,7 +50,7 @@
 }
 
 .introduction-layout {
-	margin-top:4%;
+	margin-top:0%;
 }
 
 /* FONT CLASS */
@@ -61,4 +61,11 @@
 
 .font-cairo {
 	font-family: 'Cairo', sans-serif!important;
+}
+
+@media only screen and (max-width : 768px) {
+	.image.is-320x320 {
+		width: 270px;
+		height: 270px;
+	}
 }
