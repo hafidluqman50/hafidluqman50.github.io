@@ -1,0 +1,133 @@
+@font-face {
+	font-family:'Roboto Condensed';
+	src:url('../../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family:'Cairo';
+	src:url('../../fonts/Cairo/Cairo-Regular.ttf') format('truetype');
+}
+
+.navbar-transparent {
+	background-color:transparent!important;
+}
+
+/*.navbar-transparent */
+
+.dark-flat {
+	background-color:#262626;
+}
+
+.dark-flat h1,h2,h3,h4,h5,p {
+	color:white;
+}
+
+.dark-flat .navbar-item {
+	color:white;
+}
+
+.dark-flat .navbar-item:hover {
+	color:rgba(207, 0, 15, 1)!important;
+	background-color:#121213;
+}
+
+.introduction {
+	width:100px;
+	min-height:10px;
+	padding:1%;
+	margin:10px 0px 10px 0px;
+	background-color:rgba(207, 0, 15, 1);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.work-place {
+	margin-top:5%;
+}
+
+.section-page {
+	padding:5%;
+}
+
+.circle {
+	border-radius:100%;
+}
+
+.image.is-320x320 {
+  height: 270px;
+  width: 270px;
+  object-fit: cover;
+}
+
+.introduction-layout {
+	margin-top:0%;
+}
+
+.border-white {
+	height: 1px;
+	background-color: white;
+	margin-bottom:1%;
+	margin-top:1%;
+	animation: borderanimation 2s;
+}
+
+.full-height {
+	width: 100vw;
+	height: 100vh;
+}
+
+/* FONT CLASS */
+
+.font-roboto-condensed {
+	font-family: 'Roboto Condensed', sans-serif!important;
+}
+
+.font-cairo {
+	font-family: 'Cairo', sans-serif!important;
+}
+
+.icon-bio {
+	color:white; 
+	font-size:50px;
+	margin:2%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal!important;
+}
+
+.link-icon {
+	text-decoration:none;
+	color:white;
+}
+
+@media screen and (max-width : 768px) {
+	.image.is-320x320 {
+		width: 320px;
+		height: 320px;
+		margin-left:5%;
+	}
+	.introduction {
+		padding:2%;
+	}
+	.icon-bio {
+		margin:5%;
+	}
+}
+
+@keyframes borderanimation {
+	0% {
+		width:0%;
+	}
+	25% {
+		width:25%;
+	}
+	50% {
+		width:45%;
+	}
+	75% {
+		width:75%;
+	}
+	100% {
+		width:100%;
+	}
+}
