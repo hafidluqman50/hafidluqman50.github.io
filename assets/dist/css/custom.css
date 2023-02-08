@@ -144,16 +144,21 @@ h1,h2,h3,h4,h5,h6 {
 	.arrow-down {
 		left:45%;
 	}
+	.arrow-down > a {
+		left:45%;
+		font-size:40px;
+	}
 	.image.is-320x320 {
-		width: 320px;
-		height: 320px;
-		margin-left:5%;
+		width: 270px;
+		height: 270px;
+		margin-left:7%;
 	}
 	.introduction {
 		padding:2%;
 	}
 	.icon-bio {
 		margin:5%;
+		font-size:40px;
 	}
 	.center-icon {
 		text-align:center!important;
