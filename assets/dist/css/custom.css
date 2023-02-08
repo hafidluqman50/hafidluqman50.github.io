@@ -150,6 +150,13 @@ h1,h2,h3,h4,h5,h6 {
 /*	color:white;*/
 }
 
+.image-portfolio {
+	background: white; 
+	padding:3%; 
+	border-radius:2%;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 @media screen and (max-width : 768px) {
 	.margin-top {
 		margin-top:10%;
